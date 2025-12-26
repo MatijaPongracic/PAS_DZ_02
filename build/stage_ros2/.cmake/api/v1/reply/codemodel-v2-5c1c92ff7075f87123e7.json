@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b411791a60dd44d76dbb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stage_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stage_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stage_node-317d0dc8910206a47634.json",
+					"name" : "stage_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stage_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stage_ros2-c8d8dc316efaf6741885.json",
+					"name" : "stage_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stage_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stage_ros2_uninstall-bc2e9805cc2c85ef0d4d.json",
+					"name" : "stage_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ca880c6fd5433d4622f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2",
+		"source" : "/home/matija-pongracic/PAS/PAS_DZ_02/src/stage_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,277 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7eb1ad656b90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eb1ad6566e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eb1ad6566e0>>, mixin_verb=('build',))
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.196s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/matija-pongracic/PAS/PAS_DZ_02'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Stage' with type 'ros.catkin' and name 'stage'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_planning) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_planning' with type 'ros.ament_python' and name 'path_planning'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/matija-pongracic/stage_ws/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/matija-pongracic/PAS/PAS_DZ_02/install
+[0.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 401 installed packages in /opt/ros/humble
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'path_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning', 'merge_install': False, 'path': '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning', 'symlink_install': False, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage', 'merge_install': False, 'path': '/home/matija-pongracic/PAS/PAS_DZ_02/src/Stage', 'symlink_install': False, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2', 'merge_install': False, 'path': '/home/matija-pongracic/PAS/PAS_DZ_02/src/stage_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.260s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.261s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/matija-pongracic/PAS/PAS_DZ_02/src/Stage' with build type 'catkin'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matija-pongracic/PAS/PAS_DZ_02/src/Stage'
+[0.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning' with build type 'ament_python'
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'ament_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/hook/ament_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/hook/ament_prefix_path.sh'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage': /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage -- -j12 -l12
+[0.452s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage' returned '0': /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage -- -j12 -l12
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage': /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage' returned '0': /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'ros_package_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/ros_package_path.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/ros_package_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/ros_package_path.sh'
+[0.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pkg_config_path')
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config_path.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config_path.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config_path.sh'
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pkg_config_path_multiarch')
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config_path_multiarch.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config_path_multiarch.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config_path_multiarch.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage)
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage' for CMake module files
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage' for CMake config files
+[0.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'cmake_prefix_path')
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/cmake_prefix_path.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/cmake_prefix_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/cmake_prefix_path.sh'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib'
+[0.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'ld_library_path_lib')
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/ld_library_path_lib.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/ld_library_path_lib.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/ld_library_path_lib.sh'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin'
+[0.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'path')
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/path.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/path.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/path.sh'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig/stage.pc'
+[0.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pkg_config')
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pkg_config.sh'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/python3.10/site-packages'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin'
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pythonscriptspath')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pythonscriptspath.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pythonscriptspath.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/hook/pythonscriptspath.sh'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/package.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/package.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/colcon-core/packages/stage)
+[0.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matija-pongracic/PAS/PAS_DZ_02/src/stage_ros2' with build type 'ament_cmake'
+[0.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matija-pongracic/PAS/PAS_DZ_02/src/stage_ros2'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2 -- -j12 -l12
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2 -- -j12 -l12
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2
+[0.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2' for CMake module files
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2
+[0.658s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2' for CMake config files
+[0.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib'
+[0.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/bin'
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/python3.10/site-packages'
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/bin'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.ps1'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.dsv'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.sh'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.bash'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.zsh'
+[0.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[0.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2' for CMake module files
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2' for CMake config files
+[0.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[0.666s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib'
+[0.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/bin'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/python3.10/site-packages'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/bin'
+[0.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.dsv'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.bash'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.zsh'
+[0.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[0.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning': PYTHONPATH=/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build install --record /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log --single-version-externally-managed install_data
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning' for CMake module files
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning' returned '0': PYTHONPATH=/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build install --record /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log --single-version-externally-managed install_data
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning' for CMake config files
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/bin'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/pkgconfig/path_planning.pc'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages'
+[0.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'pythonpath')
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/hook/pythonpath.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/hook/pythonpath.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/hook/pythonpath.sh'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/bin'
+[0.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_planning)
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/package.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/package.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/package.sh'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/package.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/package.zsh'
+[0.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/colcon-core/packages/path_planning)
+[0.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.897s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.902s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.902s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.902s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.910s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matija-pongracic/PAS/PAS_DZ_02/install/local_setup.ps1'
+[0.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matija-pongracic/PAS/PAS_DZ_02/install/_local_setup_util_ps1.py'
+[0.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matija-pongracic/PAS/PAS_DZ_02/install/setup.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matija-pongracic/PAS/PAS_DZ_02/install/local_setup.sh'
+[0.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matija-pongracic/PAS/PAS_DZ_02/install/_local_setup_util_sh.py'
+[0.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matija-pongracic/PAS/PAS_DZ_02/install/setup.sh'
+[0.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matija-pongracic/PAS/PAS_DZ_02/install/local_setup.bash'
+[0.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matija-pongracic/PAS/PAS_DZ_02/install/setup.bash'
+[0.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matija-pongracic/PAS/PAS_DZ_02/install/local_setup.zsh'
+[0.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matija-pongracic/PAS/PAS_DZ_02/install/setup.zsh'

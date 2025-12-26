@@ -1,0 +1,11 @@
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/uninstall.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/stage_ros2_uninstall.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/stage_node.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/stage_ros2.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/test.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/edit_cache.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/rebuild_cache.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/list_install_components.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/install.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/install/local.dir
+/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2/CMakeFiles/install/strip.dir

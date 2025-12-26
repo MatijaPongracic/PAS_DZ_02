@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/path_planning/path_planning.egg-info/PKG-INFO
+writing dependency_links to ../../build/path_planning/path_planning.egg-info/dependency_links.txt
+writing entry points to ../../build/path_planning/path_planning.egg-info/entry_points.txt
+writing requirements to ../../build/path_planning/path_planning.egg-info/requires.txt
+writing top-level names to ../../build/path_planning/path_planning.egg-info/top_level.txt
+reading manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index
+creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index/resource_index
+creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index/resource_index/packages
+copying resource/path_planning -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index/resource_index/packages
+copying package.xml -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning
+creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/launch
+copying launch/d_star_lite.launch.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/launch
+creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/rviz
+copying rviz/config.rviz -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/rviz
+creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/config
+copying config/moja_karta.yaml -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/config
+copying config/moja_karta.pgm -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/config
+running install_egg_info
+Copying ../../build/path_planning/path_planning.egg-info to /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning-0.0.0-py3.10.egg-info
+running install_scripts
+Installing d_star_lite_node script to /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/path_planning
+writing list of installed files to '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log'

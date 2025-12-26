@@ -1,0 +1,72 @@
+[0.010s] Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2 -- -j12 -l12
+[0.079s] [ 71%] Built target stage_node
+[0.115s] [100%] Built target stage_ros2
+[0.126s] Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2 -- -j12 -l12
+[0.128s] Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2
+[0.136s] -- Install configuration: ""
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/localization_launch.py
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/create_map.launch.py
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/navigation_launch.py
+[0.136s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/online_async_launch.py
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[0.137s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/lines.world
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/hallway.world
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[0.138s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave.world
+[0.139s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[0.139s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/straden.world
+[0.139s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/include
+[0.139s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[0.139s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/mapper_params_online_async.yaml
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/nav2_params.yaml
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/create_map_config.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/libstage_node.so
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/stage_ros2/stage_ros2
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/path.sh
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.bash
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.sh
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[0.140s] -- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.dsv
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[0.140s] -- Up-to-date: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.xml
+[0.141s] Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/matija-pongracic/stage_ws/install/path_planning:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning:/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage:/home/matija-pongracic/stage_ws/install/stage_ros2:/home/matija-pongracic/stage_ws/install/stage:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2 LD_LIBRARY_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/home/matija-pongracic/stage_ws/install/stage_ros2/lib:/home/matija-pongracic/stage_ws/install/stage/lib:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/home/matija-pongracic/stage_ws/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/stage_ws/install/stage/lib/pkgconfig ROS_PACKAGE_PATH=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share:/home/matija-pongracic/stage_ws/install/stage/share /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2

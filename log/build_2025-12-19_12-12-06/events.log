@@ -1,0 +1,685 @@
+[0.000000] (-) TimerEvent: {}
+[0.000482] (path_planning) JobQueued: {'identifier': 'path_planning', 'dependencies': OrderedDict()}
+[0.000571] (stage) JobQueued: {'identifier': 'stage', 'dependencies': OrderedDict()}
+[0.000650] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('stage', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage')])}
+[0.000680] (stage) JobStarted: {'identifier': 'stage'}
+[0.004085] (path_planning) JobStarted: {'identifier': 'path_planning'}
+[0.007349] (stage) JobProgress: {'identifier': 'stage', 'progress': 'cmake'}
+[0.007596] (stage) Command: {'cmd': ['/usr/bin/cmake', '/home/matija-pongracic/PAS/PAS_DZ_02/src/Stage', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage'], 'cwd': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matija-pongracic'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matija-pongracic'), ('OLDPWD', '/home/matija-pongracic/PAS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1566'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17124'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matija-pongracic'), ('JOURNAL_STREAM', '8:9823'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matija-pongracic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/HP:@/tmp/.ICE-unix/1862,unix/HP:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', 'a8b55221070c4a9db6fa975c2de6fc2e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:05f84ada-9006-4399-b3a4-1e7c85ae6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.086121] (stage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099893] (-) TimerEvent: {}
+[0.155844] (stage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.163403] (stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200035] (-) TimerEvent: {}
+[0.234745] (stage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.242853] (stage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.243124] (stage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.243505] (stage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.246099] (stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300253] (-) TimerEvent: {}
+[0.323665] (stage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.329429] (stage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.329736] (stage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.329903] (stage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.330363] (stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[0.330583] (stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.330691] (stage) StdoutLine: {'line': b'-- Installing Libraries to /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib\n'}
+[0.330787] (stage) StdoutLine: {'line': b'-- Installing Plugins to /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3\n'}
+[0.330881] (stage) StdoutLine: {'line': b'-- Build type RELEASE\n'}
+[0.330998] (stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[0.335820] (stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[0.347334] (stage) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[0.353938] (stage) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.365011] (stage) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.371474] (stage) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.393096] (path_planning) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/path_planning', 'build', '--build-base', '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build', 'install', '--record', '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'matija-pongracic', 'LC_TIME': 'hr_HR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/matija-pongracic', 'OLDPWD': '/home/matija-pongracic/PAS', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hr_HR.UTF-8', 'MANAGERPID': '1566', 'SYSTEMD_EXEC_PID': '1895', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '17124', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'matija-pongracic', 'JOURNAL_STREAM': '8:9823', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'matija-pongracic', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/HP:@/tmp/.ICE-unix/1862,unix/HP:/tmp/.ICE-unix/1862', 'INVOCATION_ID': 'a8b55221070c4a9db6fa975c2de6fc2e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hr_HR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'hr_HR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'hr_HR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:05f84ada-9006-4399-b3a4-1e7c85ae6c06', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hr_HR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'hr_HR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'hr_HR.UTF-8', 'LC_PAPER': 'hr_HR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.400337] (-) TimerEvent: {}
+[0.455275] (stage) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.455845] (stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.500441] (-) TimerEvent: {}
+[0.529095] (stage) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.529309] (stage) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.540305] (path_planning) StdoutLine: {'line': b'running egg_info\n'}
+[0.540772] (path_planning) StdoutLine: {'line': b'creating ../../build/path_planning/path_planning.egg-info\n'}
+[0.540915] (path_planning) StdoutLine: {'line': b'writing ../../build/path_planning/path_planning.egg-info/PKG-INFO\n'}
+[0.541039] (path_planning) StdoutLine: {'line': b'writing dependency_links to ../../build/path_planning/path_planning.egg-info/dependency_links.txt\n'}
+[0.541175] (path_planning) StdoutLine: {'line': b'writing entry points to ../../build/path_planning/path_planning.egg-info/entry_points.txt\n'}
+[0.541273] (path_planning) StdoutLine: {'line': b'writing requirements to ../../build/path_planning/path_planning.egg-info/requires.txt\n'}
+[0.541352] (path_planning) StdoutLine: {'line': b'writing top-level names to ../../build/path_planning/path_planning.egg-info/top_level.txt\n'}
+[0.541429] (path_planning) StdoutLine: {'line': b"writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'\n"}
+[0.542305] (path_planning) StdoutLine: {'line': b"reading manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'\n"}
+[0.542821] (path_planning) StdoutLine: {'line': b"writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'\n"}
+[0.542909] (path_planning) StdoutLine: {'line': b'running build\n'}
+[0.543017] (path_planning) StdoutLine: {'line': b'running build_py\n'}
+[0.543152] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build\n'}
+[0.543250] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib\n'}
+[0.543336] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning\n'}
+[0.543416] (path_planning) StdoutLine: {'line': b'copying path_planning/d_star_lite_node.py -> /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning\n'}
+[0.543499] (path_planning) StdoutLine: {'line': b'copying path_planning/ispravno.py -> /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning\n'}
+[0.543607] (path_planning) StdoutLine: {'line': b'copying path_planning/__init__.py -> /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning\n'}
+[0.543728] (path_planning) StdoutLine: {'line': b'copying path_planning/d_star_lite.py -> /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning\n'}
+[0.543808] (path_planning) StdoutLine: {'line': b'running install\n'}
+[0.543885] (path_planning) StdoutLine: {'line': b'running install_lib\n'}
+[0.543985] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning\n'}
+[0.544096] (path_planning) StdoutLine: {'line': b'copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/d_star_lite_node.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning\n'}
+[0.544243] (path_planning) StdoutLine: {'line': b'copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/ispravno.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning\n'}
+[0.544355] (path_planning) StdoutLine: {'line': b'copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/__init__.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning\n'}
+[0.544438] (path_planning) StdoutLine: {'line': b'copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/d_star_lite.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning\n'}
+[0.544622] (path_planning) StdoutLine: {'line': b'byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/d_star_lite_node.py to d_star_lite_node.cpython-310.pyc\n'}
+[0.546720] (path_planning) StdoutLine: {'line': b'byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/ispravno.py to ispravno.cpython-310.pyc\n'}
+[0.553347] (path_planning) StdoutLine: {'line': b'byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/__init__.py to __init__.cpython-310.pyc\n'}
+[0.553508] (path_planning) StdoutLine: {'line': b'byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/d_star_lite.py to d_star_lite.cpython-310.pyc\n'}
+[0.554886] (path_planning) StdoutLine: {'line': b'running install_data\n'}
+[0.555105] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index\n'}
+[0.555321] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index/resource_index\n'}
+[0.555464] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index/resource_index/packages\n'}
+[0.555553] (path_planning) StdoutLine: {'line': b'copying resource/path_planning -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/ament_index/resource_index/packages\n'}
+[0.555635] (path_planning) StdoutLine: {'line': b'copying package.xml -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning\n'}
+[0.555713] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/launch\n'}
+[0.555791] (path_planning) StdoutLine: {'line': b'copying launch/d_star_lite.launch.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/launch\n'}
+[0.555868] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/rviz\n'}
+[0.555946] (path_planning) StdoutLine: {'line': b'copying rviz/config.rviz -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/rviz\n'}
+[0.556039] (path_planning) StdoutLine: {'line': b'creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/config\n'}
+[0.556116] (path_planning) StdoutLine: {'line': b'copying config/moja_karta.yaml -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/config\n'}
+[0.556201] (path_planning) StdoutLine: {'line': b'copying config/moja_karta.pgm -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/config\n'}
+[0.556289] (path_planning) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.556543] (path_planning) StdoutLine: {'line': b'Copying ../../build/path_planning/path_planning.egg-info to /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning-0.0.0-py3.10.egg-info\n'}
+[0.556987] (path_planning) StdoutLine: {'line': b'running install_scripts\n'}
+[0.569787] (path_planning) StdoutLine: {'line': b'Installing d_star_lite_node script to /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/path_planning\n'}
+[0.570002] (path_planning) StdoutLine: {'line': b"writing list of installed files to '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log'\n"}
+[0.586470] (path_planning) CommandEnded: {'returncode': 0}
+[0.599163] (stage) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.599727] (stage) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.599831] (path_planning) JobEnded: {'identifier': 'path_planning', 'rc': 0}
+[0.600503] (-) TimerEvent: {}
+[0.679219] (stage) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.679441] (stage) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.700614] (-) TimerEvent: {}
+[0.758244] (stage) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.758384] (stage) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[0.800765] (-) TimerEvent: {}
+[0.839616] (stage) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[0.839809] (stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[0.900977] (-) TimerEvent: {}
+[0.913622] (stage) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[0.952284] (stage) StdoutLine: {'line': b'-- Found FLTK: fltk_images;fltk_forms;fltk_gl;fltk  \n'}
+[0.953571] (stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[0.953817] (stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage\n'}
+[0.954261] (stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[0.961279] (stage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.961648] (stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[0.964926] (stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[0.980752] (stage) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001136] (-) TimerEvent: {}
+[1.008165] (stage) StdoutLine: {'line': b'-- Generating done\n'}
+[1.008998] (stage) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.009083] (stage) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.009120] (stage) StderrLine: {'line': b'\n'}
+[1.009150] (stage) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.009186] (stage) StderrLine: {'line': b'\n'}
+[1.009216] (stage) StderrLine: {'line': b'\x1b[0m\n'}
+[1.012735] (stage) StdoutLine: {'line': b'-- Build files have been written to: /home/matija-pongracic/PAS/PAS_DZ_02/build/stage\n'}
+[1.019016] (stage) CommandEnded: {'returncode': 0}
+[1.019917] (stage) JobProgress: {'identifier': 'stage', 'progress': 'build'}
+[1.019936] (stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage', '--', '-j12', '-l12'], 'cwd': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matija-pongracic'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matija-pongracic'), ('OLDPWD', '/home/matija-pongracic/PAS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1566'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17124'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matija-pongracic'), ('JOURNAL_STREAM', '8:9823'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matija-pongracic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/HP:@/tmp/.ICE-unix/1862,unix/HP:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', 'a8b55221070c4a9db6fa975c2de6fc2e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:05f84ada-9006-4399-b3a4-1e7c85ae6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.081025] (stage) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[1.081273] (stage) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[1.081390] (stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[1.081565] (stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[1.081773] (stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[1.081853] (stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[1.082014] (stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[1.083105] (stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[1.083268] (stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[1.083492] (stage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[1.084222] (stage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[1.086760] (stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[1.101304] (-) TimerEvent: {}
+[1.205474] (-) TimerEvent: {}
+[1.305811] (-) TimerEvent: {}
+[1.406148] (-) TimerEvent: {}
+[1.506511] (-) TimerEvent: {}
+[1.606862] (-) TimerEvent: {}
+[1.707221] (-) TimerEvent: {}
+[1.807574] (-) TimerEvent: {}
+[1.908073] (-) TimerEvent: {}
+[2.008583] (-) TimerEvent: {}
+[2.109057] (-) TimerEvent: {}
+[2.138919] (stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[2.210266] (-) TimerEvent: {}
+[2.311365] (stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[2.311601] (-) TimerEvent: {}
+[2.325312] (stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[2.393278] (stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[2.402621] (stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[2.411731] (-) TimerEvent: {}
+[2.426121] (stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[2.491789] (stage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[2.511855] (-) TimerEvent: {}
+[2.566237] (stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[2.611974] (-) TimerEvent: {}
+[2.712350] (-) TimerEvent: {}
+[2.712906] (stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[2.723711] (stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[2.815257] (-) TimerEvent: {}
+[2.877332] (stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[2.915375] (-) TimerEvent: {}
+[3.015716] (-) TimerEvent: {}
+[3.116064] (-) TimerEvent: {}
+[3.216414] (-) TimerEvent: {}
+[3.273480] (stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[3.316543] (-) TimerEvent: {}
+[3.416894] (-) TimerEvent: {}
+[3.517244] (-) TimerEvent: {}
+[3.617579] (-) TimerEvent: {}
+[3.690550] (stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[3.717691] (-) TimerEvent: {}
+[3.729494] (stage) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[3.820253] (-) TimerEvent: {}
+[3.890266] (stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[3.909308] (stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[3.920371] (-) TimerEvent: {}
+[3.975276] (stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[4.005661] (stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[4.020490] (-) TimerEvent: {}
+[4.083163] (stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[4.119255] (stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[4.120590] (-) TimerEvent: {}
+[4.171533] (stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[4.220717] (-) TimerEvent: {}
+[4.321083] (-) TimerEvent: {}
+[4.425260] (-) TimerEvent: {}
+[4.525618] (-) TimerEvent: {}
+[4.626044] (-) TimerEvent: {}
+[4.726430] (-) TimerEvent: {}
+[4.826800] (-) TimerEvent: {}
+[4.927175] (-) TimerEvent: {}
+[5.027572] (-) TimerEvent: {}
+[5.127913] (-) TimerEvent: {}
+[5.228250] (-) TimerEvent: {}
+[5.328578] (-) TimerEvent: {}
+[5.428899] (-) TimerEvent: {}
+[5.529237] (-) TimerEvent: {}
+[5.629556] (-) TimerEvent: {}
+[5.729952] (-) TimerEvent: {}
+[5.830357] (-) TimerEvent: {}
+[5.930760] (-) TimerEvent: {}
+[6.031175] (-) TimerEvent: {}
+[6.131612] (-) TimerEvent: {}
+[6.231951] (-) TimerEvent: {}
+[6.295372] (stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[6.332160] (-) TimerEvent: {}
+[6.417466] (stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[6.432399] (-) TimerEvent: {}
+[6.441885] (stage) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[6.442115] (stage) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[6.442244] (stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[6.442343] (stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[6.442433] (stage) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[6.442522] (stage) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[6.442703] (stage) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[6.442846] (stage) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[6.442946] (stage) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[6.443109] (stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[6.443229] (stage) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[6.444862] (stage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[6.532512] (-) TimerEvent: {}
+[6.632835] (-) TimerEvent: {}
+[6.736253] (-) TimerEvent: {}
+[6.836608] (-) TimerEvent: {}
+[6.936953] (-) TimerEvent: {}
+[7.037466] (-) TimerEvent: {}
+[7.137793] (-) TimerEvent: {}
+[7.238141] (-) TimerEvent: {}
+[7.338515] (-) TimerEvent: {}
+[7.409207] (stage) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[7.438630] (-) TimerEvent: {}
+[7.502914] (stage) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[7.526233] (stage) StdoutLine: {'line': b'[ 81%] Built target pioneer_flocking\n'}
+[7.540351] (-) TimerEvent: {}
+[7.540656] (stage) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[7.558819] (stage) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[7.580031] (stage) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[7.613893] (stage) StdoutLine: {'line': b'[ 86%] Built target dynamic\n'}
+[7.640461] (-) TimerEvent: {}
+[7.660635] (stage) StdoutLine: {'line': b'[ 86%] Built target sink\n'}
+[7.699233] (stage) StdoutLine: {'line': b'[ 86%] Built target stagebinary\n'}
+[7.720110] (stage) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[7.726050] (stage) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[7.726944] (stage) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[7.740563] (-) TimerEvent: {}
+[7.776761] (stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[7.808211] (stage) StdoutLine: {'line': b'[ 93%] Built target lasernoise\n'}
+[7.816846] (stage) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[7.828878] (stage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[7.840689] (-) TimerEvent: {}
+[7.847095] (stage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[7.856062] (stage) StdoutLine: {'line': b'[ 98%] Built target rasterize\n'}
+[7.858230] (stage) StdoutLine: {'line': b'[ 98%] Built target wander\n'}
+[7.862659] (stage) StdoutLine: {'line': b'[ 98%] Built target expand_swarm\n'}
+[7.925883] (stage) StdoutLine: {'line': b'[ 98%] Built target expand_pioneer\n'}
+[7.940791] (-) TimerEvent: {}
+[7.941005] (stage) StdoutLine: {'line': b'[ 98%] Built target fasr\n'}
+[7.942550] (stage) StdoutLine: {'line': b'[ 98%] Built target source\n'}
+[8.040887] (-) TimerEvent: {}
+[8.141228] (-) TimerEvent: {}
+[8.191754] (stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[8.241440] (-) TimerEvent: {}
+[8.266673] (stage) StdoutLine: {'line': b'[100%] Built target fasr2\n'}
+[8.279676] (stage) CommandEnded: {'returncode': 0}
+[8.281511] (stage) JobProgress: {'identifier': 'stage', 'progress': 'install'}
+[8.293640] (stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage'], 'cwd': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matija-pongracic'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matija-pongracic'), ('OLDPWD', '/home/matija-pongracic/PAS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1566'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17124'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matija-pongracic'), ('JOURNAL_STREAM', '8:9823'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'matija-pongracic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/HP:@/tmp/.ICE-unix/1862,unix/HP:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', 'a8b55221070c4a9db6fa975c2de6fc2e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:05f84ada-9006-4399-b3a4-1e7c85ae6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[8.304061] (stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[8.304374] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig/stage.pc\n'}
+[8.304904] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/cmake/Stage/stage-config.cmake\n'}
+[8.305052] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[8.305256] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin/stage\n'}
+[8.305770] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin/stage" to ""\n'}
+[8.305827] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/libstage.so.4.3.0\n'}
+[8.306399] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/libstage.so\n'}
+[8.306461] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/include/Stage-4.3/stage.hh\n'}
+[8.307245] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/fasr.so\n'}
+[8.307456] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/fasr.so" to ""\n'}
+[8.307517] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/sink.so\n'}
+[8.307660] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/sink.so" to ""\n'}
+[8.307749] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/source.so\n'}
+[8.307953] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/source.so" to ""\n'}
+[8.308036] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/wander.so\n'}
+[8.308253] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/wander.so" to ""\n'}
+[8.308341] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[8.308553] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""\n'}
+[8.308632] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/rasterize.so\n'}
+[8.308833] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/rasterize.so" to ""\n'}
+[8.308918] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/lasernoise.so\n'}
+[8.309106] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/lasernoise.so" to ""\n'}
+[8.309198] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/dynamic.so\n'}
+[8.309415] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/dynamic.so" to ""\n'}
+[8.309498] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/fasr2.so\n'}
+[8.309753] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/fasr2.so" to ""\n'}
+[8.310060] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/blue.png\n'}
+[8.310146] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/death.png\n'}
+[8.310259] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/green.png\n'}
+[8.310346] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/logo.png\n'}
+[8.310421] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/mains.png\n'}
+[8.310560] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/mainspower.png\n'}
+[8.310676] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/question_mark.png\n'}
+[8.310763] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/red.png\n'}
+[8.310846] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/stagelogo.png\n'}
+[8.310922] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/stall-old.png\n'}
+[8.311010] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/stall.png\n'}
+[8.311106] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/assets/rgb.txt\n'}
+[8.311234] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/rgb.txt\n'}
+[8.311688] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[8.311775] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/autolab.cfg\n'}
+[8.311857] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/camera.cfg\n'}
+[8.311940] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/everything.cfg\n'}
+[8.312024] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/lsp_test.cfg\n'}
+[8.312107] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/mbicp.cfg\n'}
+[8.312194] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/nd.cfg\n'}
+[8.312284] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/roomba.cfg\n'}
+[8.312389] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/simple.cfg\n'}
+[8.312451] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/test.cfg\n'}
+[8.312510] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[8.312593] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/vfh.cfg\n'}
+[8.312698] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[8.312761] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wavefront.cfg\n'}
+[8.312821] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi.cfg\n'}
+[8.312904] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/SFU.world\n'}
+[8.313010] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/autolab.world\n'}
+[8.313070] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/camera.world\n'}
+[8.313128] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/circuit.world\n'}
+[8.313222] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/everything.world\n'}
+[8.313332] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/fasr.world\n'}
+[8.313391] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/fasr2.world\n'}
+[8.313447] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/fasr_plan.world\n'}
+[8.313529] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/large.world\n'}
+[8.313633] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/lsp_test.world\n'}
+[8.313692] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/mbicp.world\n'}
+[8.313751] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/pioneer_flocking.world\n'}
+[8.313835] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/pioneer_follow.world\n'}
+[8.313939] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/pioneer_walle.world\n'}
+[8.313998] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/roomba.world\n'}
+[8.314053] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[8.314136] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[8.314247] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/simple.world\n'}
+[8.314309] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[8.314366] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi.world\n'}
+[8.314450] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/beacons.inc\n'}
+[8.314563] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/chatterbox.inc\n'}
+[8.314623] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/hokuyo.inc\n'}
+[8.314678] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/irobot.inc\n'}
+[8.314761] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/map.inc\n'}
+[8.314868] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/objects.inc\n'}
+[8.314926] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/pantilt.inc\n'}
+[8.314983] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/pioneer.inc\n'}
+[8.315067] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/sick.inc\n'}
+[8.315175] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/ubot.inc\n'}
+[8.315245] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[8.315301] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/walle.inc\n'}
+[8.315383] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/cfggen.sh\n'}
+[8.315478] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/test.sh\n'}
+[8.315532] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/worldgen.sh\n'}
+[8.315682] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/expand_swarm.so\n'}
+[8.315924] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/expand_swarm.so" to ""\n'}
+[8.315996] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[8.316199] (stage) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""\n'}
+[8.316433] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[8.316506] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[8.316721] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[8.316806] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[8.316871] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/cave.png\n'}
+[8.316943] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[8.317017] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[8.317092] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[8.317151] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[8.317233] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[8.317309] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[8.317378] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[8.317448] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[8.317532] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/rink.png\n'}
+[8.317575] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[8.317648] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[8.317717] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[8.317802] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[8.317861] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[8.317902] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/table.png\n'}
+[8.317968] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[8.318101] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/commando.world\n'}
+[8.318167] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[8.318229] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[8.318286] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/wifi.world\n'}
+[8.318351] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[8.318432] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[8.318473] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[8.318551] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[8.318590] (stage) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share/stage/worlds/wifi/map.inc\n'}
+[8.320201] (stage) CommandEnded: {'returncode': 0}
+[8.339568] (stage) JobEnded: {'identifier': 'stage', 'rc': 0}
+[8.340112] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[8.341521] (-) TimerEvent: {}
+[8.345687] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[8.346249] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/matija-pongracic/PAS/PAS_DZ_02/src/stage_ros2', '-DCMAKE_INSTALL_PREFIX=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2'], 'cwd': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matija-pongracic'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matija-pongracic'), ('OLDPWD', '/home/matija-pongracic/PAS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1566'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17124'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matija-pongracic'), ('JOURNAL_STREAM', '8:9823'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig'), ('USERNAME', 'matija-pongracic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/HP:@/tmp/.ICE-unix/1862,unix/HP:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', 'a8b55221070c4a9db6fa975c2de6fc2e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:05f84ada-9006-4399-b3a4-1e7c85ae6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage')]), 'shell': False}
+[8.423027] (stage_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.441728] (-) TimerEvent: {}
+[8.485440] (stage_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.490937] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.541945] (-) TimerEvent: {}
+[8.567848] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.575476] (stage_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.575757] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.576436] (stage_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.580487] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.642086] (-) TimerEvent: {}
+[8.673585] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.685522] (stage_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.685862] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.686812] (stage_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.691934] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.742326] (-) TimerEvent: {}
+[8.837147] (stage_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.842420] (-) TimerEvent: {}
+[8.907160] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.941095] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.942522] (-) TimerEvent: {}
+[8.944679] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.951040] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.960571] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.972248] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.005118] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.007221] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.042692] (-) TimerEvent: {}
+[9.098108] (stage_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.131657] (stage_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.142920] (-) TimerEvent: {}
+[9.177533] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.189002] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.243033] (-) TimerEvent: {}
+[9.272535] (stage_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.273123] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.343298] (-) TimerEvent: {}
+[9.366538] (stage_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.367950] (stage_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.417434] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[9.437679] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[9.443506] (-) TimerEvent: {}
+[9.460370] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[9.474314] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[9.528674] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[9.538708] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[9.539674] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.539851] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.541471] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[9.543606] (-) TimerEvent: {}
+[9.551386] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.610832] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.611148] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/matija-pongracic/PAS/PAS_DZ_02/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/matija-pongracic/PAS/PAS_DZ_02/src/stage_ros2/include>\n'}
+[9.611292] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.611597] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.612502] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.612960] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.615376] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.615560] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.615814] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.618265] (stage_ros2) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[9.618820] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8\n"}
+[9.619352] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.630554] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[9.634636] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2\n'}
+[9.642055] (stage_ros2) CommandEnded: {'returncode': 0}
+[9.642586] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[9.642719] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2', '--', '-j12', '-l12'], 'cwd': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matija-pongracic'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matija-pongracic'), ('OLDPWD', '/home/matija-pongracic/PAS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1566'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17124'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matija-pongracic'), ('JOURNAL_STREAM', '8:9823'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig'), ('USERNAME', 'matija-pongracic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/HP:@/tmp/.ICE-unix/1862,unix/HP:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', 'a8b55221070c4a9db6fa975c2de6fc2e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:05f84ada-9006-4399-b3a4-1e7c85ae6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage')]), 'shell': False}
+[9.643709] (-) TimerEvent: {}
+[9.694861] (stage_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[9.695635] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[9.695800] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[9.696027] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[9.743858] (-) TimerEvent: {}
+[9.844193] (-) TimerEvent: {}
+[9.944509] (-) TimerEvent: {}
+[10.044836] (-) TimerEvent: {}
+[10.145167] (-) TimerEvent: {}
+[10.245509] (-) TimerEvent: {}
+[10.345835] (-) TimerEvent: {}
+[10.446156] (-) TimerEvent: {}
+[10.546494] (-) TimerEvent: {}
+[10.646834] (-) TimerEvent: {}
+[10.747164] (-) TimerEvent: {}
+[10.847505] (-) TimerEvent: {}
+[10.947833] (-) TimerEvent: {}
+[11.048174] (-) TimerEvent: {}
+[11.148526] (-) TimerEvent: {}
+[11.248864] (-) TimerEvent: {}
+[11.349200] (-) TimerEvent: {}
+[11.449491] (-) TimerEvent: {}
+[11.549831] (-) TimerEvent: {}
+[11.650172] (-) TimerEvent: {}
+[11.750487] (-) TimerEvent: {}
+[11.850819] (-) TimerEvent: {}
+[11.951149] (-) TimerEvent: {}
+[12.051450] (-) TimerEvent: {}
+[12.151789] (-) TimerEvent: {}
+[12.252122] (-) TimerEvent: {}
+[12.352482] (-) TimerEvent: {}
+[12.452851] (-) TimerEvent: {}
+[12.553222] (-) TimerEvent: {}
+[12.653567] (-) TimerEvent: {}
+[12.753925] (-) TimerEvent: {}
+[12.854277] (-) TimerEvent: {}
+[12.954609] (-) TimerEvent: {}
+[13.054932] (-) TimerEvent: {}
+[13.155253] (-) TimerEvent: {}
+[13.255566] (-) TimerEvent: {}
+[13.355875] (-) TimerEvent: {}
+[13.456205] (-) TimerEvent: {}
+[13.556528] (-) TimerEvent: {}
+[13.656852] (-) TimerEvent: {}
+[13.757175] (-) TimerEvent: {}
+[13.857512] (-) TimerEvent: {}
+[13.957847] (-) TimerEvent: {}
+[14.058187] (-) TimerEvent: {}
+[14.158556] (-) TimerEvent: {}
+[14.258998] (-) TimerEvent: {}
+[14.359398] (-) TimerEvent: {}
+[14.459836] (-) TimerEvent: {}
+[14.560283] (-) TimerEvent: {}
+[14.660714] (-) TimerEvent: {}
+[14.761133] (-) TimerEvent: {}
+[14.861564] (-) TimerEvent: {}
+[14.961967] (-) TimerEvent: {}
+[15.062360] (-) TimerEvent: {}
+[15.162761] (-) TimerEvent: {}
+[15.263167] (-) TimerEvent: {}
+[15.363532] (-) TimerEvent: {}
+[15.463945] (-) TimerEvent: {}
+[15.564346] (-) TimerEvent: {}
+[15.664813] (-) TimerEvent: {}
+[15.765231] (-) TimerEvent: {}
+[15.865658] (-) TimerEvent: {}
+[15.966017] (-) TimerEvent: {}
+[16.066375] (-) TimerEvent: {}
+[16.166776] (-) TimerEvent: {}
+[16.267128] (-) TimerEvent: {}
+[16.367445] (-) TimerEvent: {}
+[16.467751] (-) TimerEvent: {}
+[16.568071] (-) TimerEvent: {}
+[16.668346] (-) TimerEvent: {}
+[16.768678] (-) TimerEvent: {}
+[16.869033] (-) TimerEvent: {}
+[16.969371] (-) TimerEvent: {}
+[17.069618] (-) TimerEvent: {}
+[17.169929] (-) TimerEvent: {}
+[17.270252] (-) TimerEvent: {}
+[17.370591] (-) TimerEvent: {}
+[17.470927] (-) TimerEvent: {}
+[17.571264] (-) TimerEvent: {}
+[17.671587] (-) TimerEvent: {}
+[17.771920] (-) TimerEvent: {}
+[17.872250] (-) TimerEvent: {}
+[17.972589] (-) TimerEvent: {}
+[18.072916] (-) TimerEvent: {}
+[18.173236] (-) TimerEvent: {}
+[18.273560] (-) TimerEvent: {}
+[18.373878] (-) TimerEvent: {}
+[18.474200] (-) TimerEvent: {}
+[18.574433] (-) TimerEvent: {}
+[18.674752] (-) TimerEvent: {}
+[18.775087] (-) TimerEvent: {}
+[18.875446] (-) TimerEvent: {}
+[18.975714] (-) TimerEvent: {}
+[19.076041] (-) TimerEvent: {}
+[19.176477] (-) TimerEvent: {}
+[19.276804] (-) TimerEvent: {}
+[19.377143] (-) TimerEvent: {}
+[19.477489] (-) TimerEvent: {}
+[19.577840] (-) TimerEvent: {}
+[19.678226] (-) TimerEvent: {}
+[19.778479] (-) TimerEvent: {}
+[19.782502] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[19.878636] (-) TimerEvent: {}
+[19.978978] (-) TimerEvent: {}
+[20.079359] (-) TimerEvent: {}
+[20.179742] (-) TimerEvent: {}
+[20.280095] (-) TimerEvent: {}
+[20.380459] (-) TimerEvent: {}
+[20.477115] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[20.480570] (-) TimerEvent: {}
+[20.501551] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[20.580775] (-) TimerEvent: {}
+[20.681112] (-) TimerEvent: {}
+[20.781354] (-) TimerEvent: {}
+[20.881693] (-) TimerEvent: {}
+[20.982027] (-) TimerEvent: {}
+[21.082356] (-) TimerEvent: {}
+[21.182673] (-) TimerEvent: {}
+[21.282993] (-) TimerEvent: {}
+[21.383347] (-) TimerEvent: {}
+[21.483691] (-) TimerEvent: {}
+[21.584029] (-) TimerEvent: {}
+[21.684358] (-) TimerEvent: {}
+[21.784695] (-) TimerEvent: {}
+[21.885027] (-) TimerEvent: {}
+[21.985353] (-) TimerEvent: {}
+[22.085690] (-) TimerEvent: {}
+[22.186012] (-) TimerEvent: {}
+[22.286338] (-) TimerEvent: {}
+[22.386659] (-) TimerEvent: {}
+[22.486988] (-) TimerEvent: {}
+[22.587313] (-) TimerEvent: {}
+[22.687665] (-) TimerEvent: {}
+[22.767123] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[22.787768] (-) TimerEvent: {}
+[22.888067] (-) TimerEvent: {}
+[22.988378] (-) TimerEvent: {}
+[23.042218] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[23.053409] (stage_ros2) CommandEnded: {'returncode': 0}
+[23.054378] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[23.055670] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2'], 'cwd': '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'matija-pongracic'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/matija-pongracic'), ('OLDPWD', '/home/matija-pongracic/PAS'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('MANAGERPID', '1566'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17124'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'matija-pongracic'), ('JOURNAL_STREAM', '8:9823'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/lib/pkgconfig'), ('USERNAME', 'matija-pongracic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/matija-pongracic/PAS/PAS_DZ_02/install/stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/HP:@/tmp/.ICE-unix/1862,unix/HP:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', 'a8b55221070c4a9db6fa975c2de6fc2e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:05f84ada-9006-4399-b3a4-1e7c85ae6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/matija-pongracic/PAS/PAS_DZ_02/install/stage')]), 'shell': False}
+[23.063812] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.064247] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[23.064609] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[23.064828] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch\n'}
+[23.064936] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[23.065034] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[23.065128] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/localization_launch.py\n'}
+[23.065289] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/navigation_launch.py\n'}
+[23.065384] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/online_async_launch.py\n'}
+[23.065473] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[23.065560] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[23.065644] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[23.065727] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world\n'}
+[23.065829] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps\n'}
+[23.065909] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[23.065994] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[23.066079] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[23.066165] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[23.066292] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[23.066419] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[23.066506] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[23.066593] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[23.066675] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[23.066757] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[23.066839] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[23.066921] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[23.067031] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[23.067195] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[23.067323] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[23.067404] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[23.067483] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[23.067559] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/include\n'}
+[23.067636] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[23.067713] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[23.067791] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config\n'}
+[23.067868] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy\n'}
+[23.067949] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[23.068028] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/mapper_params_online_async.yaml\n'}
+[23.068113] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/nav2_params.yaml\n'}
+[23.068194] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz\n'}
+[23.068280] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[23.068357] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[23.068434] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[23.068511] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[23.068587] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[23.068665] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[23.068743] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[23.068820] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/libstage_node.so\n'}
+[23.072907] (stage_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/libstage_node.so" to ""\n'}
+[23.073017] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[23.073112] (stage_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""\n'}
+[23.073218] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[23.073330] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[23.073411] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[23.073513] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[23.073650] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[23.073741] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[23.073820] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[23.073899] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[23.073978] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[23.074057] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[23.074136] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[23.074248] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[23.074329] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[23.074402] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[23.074476] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/matija-pongracic/PAS/PAS_DZ_02/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[23.075252] (stage_ros2) CommandEnded: {'returncode': 0}
+[23.084414] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[23.084978] (-) EventReactorShutdown: {}

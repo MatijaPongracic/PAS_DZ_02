@@ -1,0 +1,33 @@
+[0.445s] Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning': PYTHONPATH=/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build install --record /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log --single-version-externally-managed install_data
+[0.593s] running egg_info
+[0.593s] writing ../../build/path_planning/path_planning.egg-info/PKG-INFO
+[0.593s] writing dependency_links to ../../build/path_planning/path_planning.egg-info/dependency_links.txt
+[0.593s] writing entry points to ../../build/path_planning/path_planning.egg-info/entry_points.txt
+[0.593s] writing requirements to ../../build/path_planning/path_planning.egg-info/requires.txt
+[0.593s] writing top-level names to ../../build/path_planning/path_planning.egg-info/top_level.txt
+[0.594s] reading manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[0.595s] writing manifest file '../../build/path_planning/path_planning.egg-info/SOURCES.txt'
+[0.595s] running build
+[0.595s] running build_py
+[0.595s] copying path_planning/d_star_lite_node.py -> /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning
+[0.595s] copying path_planning/d_star_lite.py -> /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning
+[0.595s] running install
+[0.596s] running install_lib
+[0.596s] creating /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.596s] copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/d_star_lite_node.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.596s] copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/ispravno.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.596s] copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/__init__.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.597s] copying /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build/lib/path_planning/d_star_lite.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning
+[0.597s] byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/d_star_lite_node.py to d_star_lite_node.cpython-310.pyc
+[0.599s] byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/ispravno.py to ispravno.cpython-310.pyc
+[0.605s] byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/__init__.py to __init__.cpython-310.pyc
+[0.606s] byte-compiling /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning/d_star_lite.py to d_star_lite.cpython-310.pyc
+[0.607s] running install_data
+[0.607s] copying launch/d_star_lite.launch.py -> /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/share/path_planning/launch
+[0.607s] running install_egg_info
+[0.608s] removing '/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning-0.0.0-py3.10.egg-info' (and everything under it)
+[0.608s] Copying ../../build/path_planning/path_planning.egg-info to /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages/path_planning-0.0.0-py3.10.egg-info
+[0.609s] running install_scripts
+[0.621s] Installing d_star_lite_node script to /home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/path_planning
+[0.621s] writing list of installed files to '/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log'
+[0.641s] Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/src/path_planning' returned '0': PYTHONPATH=/home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matija-pongracic/PAS/PAS_DZ_02/install/path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_planning build --build-base /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/build install --record /home/matija-pongracic/PAS/PAS_DZ_02/build/path_planning/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage': /usr/bin/cmake /home/matija-pongracic/PAS/PAS_DZ_02/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage
+Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage' returned '0': /usr/bin/cmake /home/matija-pongracic/PAS/PAS_DZ_02/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/matija-pongracic/PAS/PAS_DZ_02/install/stage
+Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage': /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage -- -j12 -l12
+Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage' returned '0': /usr/bin/cmake --build /home/matija-pongracic/PAS/PAS_DZ_02/build/stage -- -j12 -l12
+Invoking command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage': /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage
+Invoked command in '/home/matija-pongracic/PAS/PAS_DZ_02/build/stage' returned '0': /usr/bin/cmake --install /home/matija-pongracic/PAS/PAS_DZ_02/build/stage
