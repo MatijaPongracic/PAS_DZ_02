@@ -71,8 +71,8 @@ ros2 launch path_planning d_star_lite.launch.py
 ```
 
 Otvorit će se RVIZ s učitanom mapom te je potrebno odrediti točke START i GOAL.
-Za određivanje točke START kliknuti 2D Pose Estimate i klinuti na neku točku na mapi.
-ZA određivanje točke GOAL kliknuti 2D Goal Pose i klinuti na neku točku na mapi.
+Za određivanje točke START kliknuti `2D Pose Estimate` i klinuti na neku točku na mapi.
+ZA određivanje točke GOAL kliknuti `2D Goal Pose` i klinuti na neku točku na mapi.
 
 Nakont toga započinje vizualizacija pretraživanja te se na kraju prikuje pronađena putanja.
 U slučaju da putanja nije pronađena, vizualizacija se ne prikazuje postepeno, već se trenutno prikažu svi pretraženi čvorovi.
